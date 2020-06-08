@@ -4,6 +4,12 @@
 <article class="center bg-white br-3 pv1 ph4 lh-copy f5 nested-links mw7">
 	{{ .Content }}
 </article>
+
+{{"<!-- begin comments //-->" | safeHTML}}
+<section id="isso-thread">
+
+</section>
+{{"<!-- end comments //-->" | safeHTML}}
 {{ end }}
 
 {{ define "social" }}
